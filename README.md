@@ -2,7 +2,7 @@
 
 ### Features
 
-* pings qemu-guest-agent of defined PVE VM
+* pings `qemu-guest-agent` on defined PVE VM
 * on success (all VM operational) outputs VM list
 * on error (VM ping failed) forces VM shutdown (attempts grace shutdown first) then starts VM
 * sends alert to syslog, email, Telegram
