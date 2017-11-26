@@ -18,10 +18,9 @@
 * (optional) [**telebot**](https://github.com/dmitriypavlov/telebot) script for Telegram
 
 ### Usage
-
 1. define a watchdog list in `VM` variable
-2. define an email and (optional) telegram account
+2. define an email and (optional) Telegram account
 3. set executable `chmod +x ./watchdog.sh`
-4. add to cron with `crontab -e`
+4. add to cron with `crontab -e`:
 
-	`*/10 * * * * /root/watchdog.sh >/dev/null 2>&1`
+`*/10 * * * * /root/watchdog.sh >/dev/null 2>&1`
