@@ -19,9 +19,9 @@
 
 ### Usage
 
-* define a watchdog list in `VM` variable
-* define an email and (optional) telegram account
-* set executable `chmod +x ./watchdog.sh`
-* add to cron with `crontab -e`
+1. define a watchdog list in `VM` variable
+2. define an email and (optional) telegram account
+3. set executable `chmod +x ./watchdog.sh`
+4. add to cron with `crontab -e`
 
 	`*/10 * * * * /root/watchdog.sh >/dev/null 2>&1`
